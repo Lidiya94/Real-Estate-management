@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Property-Real Estate Database Management</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body>
+ 
+<header>
+  <h1>Real Estate Database Management</h1>
+</header>
+<p id="submit"></p>
+<div>
+   <span><a href="../index.html" target="_window">Home </a></span>>>   <span>Property Details >> </span>
+ </div>
+<section>
+    <h2>Property Details</h2>
+  <div id="main">
+    <form >
+      <fieldset>
+        <h4>Select Action Type</h4>
+          <div class="custom-select" style="width:180px;">
+            <select>
+              <option value="0">Select User Action:</option>
+              <option value="1">Buy</option>
+              <option value="2">Sell</option>
+              <option value="3">Rent</option>
+             </select>
+          </div>  
+        <h4>Select Home Type</h4>
+        
+       <div>   
+        <input type="radio" name="radio" id="Single Family Home" value="Single Family Home" >
+        <label for="rent">Single Family Home</label>
+      </div>   
+         <div>   
+        <input type="radio" name="radio" id="Town Home" value="Town Home">
+        <label for="rent1">Town Home</label>
+      </div>   
+
+      <h4>Select Home Size</h4>
+      <div> 
+        <input type="checkbox" name="4bed" id="4bed">
+        <label for="4bed">4BHK</label>
+        
+        <input type="checkbox" name="3bed" id="3bed">
+        <label for="3bed">3BHK</label>
+       
+        <input type="checkbox" name="2bed" id="2bed">
+        <label for="2bed">2BHK</label>
+          
+        <input type="checkbox" name="1bed" id="1bed">
+        <label for="1bed">1.5BHK</label>
+      </div> 
+
+      <h4>Select Home Location</h4>
+        <div class="custom-select" style="width:180px;">
+            <select>
+              <option value="0">Select Location:</option>
+              <option value="1">Denton, TX</option>
+              <option value="2">Dallas, TX</option>
+              <option value="3">Arlington, TX</option>
+              <option value="4">SFO, CA</option>
+             </select>
+          </div>   
+        <h4>Your Interest Details</h4> 
+        <div>   
+          
+          <textarea rows="8" cols="50" name="details" id="details"></textarea>
+        </div>     
+         <input type="submit" value="Submit" onclick="mySubmit()">  
+        
+      </fieldset>
+      </form>
+
+  </div>
+ 
+</section>
+
+<footer>
+  <p>Company © Real Estate Database Management. All rights reserved.</p>
+</footer>
+
+
+
+
+<script src="../js/dropdown.js"></script>
+
+
+</body>
+</html>
+
